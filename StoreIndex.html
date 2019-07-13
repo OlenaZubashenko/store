@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>store</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="StoreIndex.css">
+</head>
+
+<body>
+    <!--<div class="container">
+    <nav class="menu-navigation-wrapper">
+        <div class="menu-navigation__top wrapper">
+            <button class="menu-list btn" type="button" title="menu-list"></button>
+            <a class="logo" href="#">Portland</a>
+            <nav class="main-menu">
+                <ul class="row">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Devices</a></li>
+                    <li><a href="#">Delivery & Paymen</a></li>
+                    <li><a href="#">Guaranty</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </nav>
+            <button class="basket btn">
+                <span class="basket__text uppercase">cart</span>
+            </button>
+            <button class="sign-in uppercase btn">Sign in</button>
+        </div>
+        <div class="menu-navigation__bottom wrapper">
+            <nav class="main-section">
+                <ul class="row">
+                    <li><a class="uppercase" href="#">top sales</a></li>
+                    <li><a class="uppercase" href="#">brend focus</a></li>
+                    <li><a class="visited uppercase" href="#">hi-tech</a></li>
+                    <li><a class="uppercase" href="#">best sellers</a></li>
+                    <li><a class="uppercase" href="#">projects</a></li>
+                </ul>
+            </nav>
+            <a href="#">Support</a>
+            <button class="search btn" type="button" title="search">
+                <span class="search__icon"></span>
+                <span class="search__text">I'm looking for</span>
+            </button>
+        </div>
+    </nav>
+</div>-->
+    <div class="container">
+        <div class="row">
+            <div class="col-xl">
+                <nav class="nav-top navbar navbar-light bg-light d-flex">
+                    <div class="d-flex justify-content-start">
+                        <button class="toggle navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <figure class="text-left">
+                            <img src="img/logo.png">
+                        </figure>
+                    </div>
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Devices</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Delivery&Payment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cuaratee</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <button class="basket btn d-flex">
+                            <figure>
+                                <img src="img/basket.png">
+                            </figure>
+                            <span class="cart text-uppercase">cart</span>
+                        </button>
+                        <button class="sign-in text-uppercase btn btn-light">Sign in</button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl">
+                <nav class="nav-bottom d-flex justify-content-between">
+                    <ul class="nav text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase" href="#">top sales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">brand focus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">hi-tech</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">best sales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">projects</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <a class="support text-uppercase" href="#">Support</a>
+                        <button class="search btn d-flex" type="button" title="search">
+                            <figure>
+                                <img src="img/Search_Icon.png">
+                            </figure>
+                            <span class="search__text">I'm looking for...</span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                </li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <img class="d-flex w-100" src="img/slide1bcg.png" alt="First slide">
+                    <div class="wrapper carousel-caption d-md-block">
+                        <div class="text-left carousel-caption d-md-block">
+                            <h5 class="display-3">iPhone 6 32Gb<br>
+                                Black</h5>
+                            <p>At first, for some time, I was not able to answer him one word;<br>
+                                but as he had taken me in his arms I held fast by him, or s should<br>
+                                have fallen to the ground.</p>
+                            <button class="text-uppercase btn btn-primary">Buy now</button>
+                        </div>
+                        <figure class=" d-md-block text-right">
+                            <img src="img/iphone_6_space_gray_v3_.RGB_color.0115.png">
+                        </figure>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/slide1bcg.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/slide1bcg.png" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="content">
+            <div class="row sorting justify-content-between">
+                <div class="col-xl">
+                    <h4 class="title text-uppercase">sort by:</h4>
+                </div>
+                <div class="col-xl">
+                    <div class="dropdown">
+                        <button class="title btn btn-light dropdown-toggle text-uppercase" type="button"
+                            id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Best match
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl d-flex flex-row keywords">
+                    <label for="keywords" class="title text-uppercase">keywords</label>
+                    <input class="keywords" type="text" placeholder="Tablet">
+                </div>
+                <div class="col-xl d-flex flex-row price">
+                    <label for="price" class="title text-uppercase">price</label>
+                    <input class="min-price" type="text" placeholder="10">
+                    <input class="max-price" type="text" placeholder="1000">
+                </div>
+                <div class="col-xl d-flex flex-row shipping">
+                    <img src="img/Checkbox_BG_On.png">
+                    <h3 class="text-capitalize">Free shipping</h3>
+                </div>
+                <div class="col-xl">
+                    <h4 class="title text-uppercase">ship to:</h4>
+                </div>
+                <div class="col-xl">
+                    <div class="dropdown">
+                        <a class="lang title text-uppercase btn btn-light dropdown-toggle" href="#" role="button"
+                            id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            usa
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-3">
+                    <div class="filter-wrapper">
+                        <div class="filter-wrapper__top">
+                            <ul class="text-capitalize">
+                                <li>top sales
+                                    <img src="img/Open_Icon.png">
+                                </li>
+                                <li>brand focus
+                                    <img src="img/Open_Icon.png"></li>
+                                <li class="opened">top sales
+                                    <img src="img/Opened_Icon.png">
+                                    <ul class="inside text-uppercase">
+                                        <li>cell phones</li>
+                                        <li>cameras</li>
+                                        <li>computers</li>
+                                        <li>cell phones</li>
+                                        <li>video games and</li>
+                                    </ul>
+                                </li>
+                                <li>top sales
+                                    <img src="img/Open_Icon.png"></li>
+                                <li>top sales
+                                    <img src="img/Open_Icon.png"></li>
+                            </ul>
+                        </div>
+                        <div class="filter-wrapper__center">
+                            <div class="center__radio ">
+                                <h4 class="text-uppercase">available</h4><br>
+                                <div class="radio-content">
+                                    <input type="radio" placeholder="in storage" checked>In Storage
+                                    <span>45</span><br>
+                                    <input type="radio" placeholder="in storage">
+                                    In Storage<span>45</span>
+                                </div>
+                            </div>
+                            <div class="center__check">
+                                <div class="brands-wrapper d-flex justify-content-between">
+                                    <h4 class="text-uppercase">brands</h4>
+                                    <a href="#" class="all text-uppercase text-right">all</a>
+                                </div>
+                                <input type="checkbox">Apple<span>45</span><br>
+                                <input type="checkbox">Apple<span>45</span><br>
+                                <input type="checkbox">Apple<span>45</span><br>
+                                <input type="checkbox">Apple<span>45</span><br>
+                            </div>
+                        </div>
+                        <div class="filter-wrapper__bottom">
+                            <div class="bottom__check">
+                                <div class="condition-wrapper d-flex justify-content-between">
+                                    <h4 class="text-uppercase">condition</h4>
+                                    <a href="#" class="all text-uppercase">see all</a>
+                                </div>
+                                <input type="checkbox" checked>apple <br>
+                                <input type="checkbox">apple<br>
+                                <input type="checkbox">apple<br>
+                                <input type="checkbox" checked>apple<br>
+                                <input type="checkbox">apple<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-9 col-lg-9 card">
+                    <div class="card-wrapper d-flex justify-content-between flex-wrap">
+                        <div class="card-test">
+                            <figure>
+                                <img src="img/Photo1.png">
+                                <div class="card-test__title">Apple TV 32 Gb</div>
+                                <div class="card-test__color">black</div>
+                                <div class="card-test__price">$49</div>
+                            </figure>
+                        </div>
+                        <div class="card-test">
+                            <figure>
+                                <img src="img/Photo1.png">
+                                <div class="card-test__title">Apple TV 32 Gb</div>
+                                <div class="card-test__color">black</div>
+                                <div class="card-test__price">$49</div>
+                            </figure>
+                        </div>
+                        <div class="card-test big-banner">
+                            <figure>
+                                <img src="img/Photo1.png">
+                                <div class="card-test__title">Apple TV 32 Gb</div>
+                                <div class="card-test__color">black</div>
+                                <div class="card-test__price">$49</div>
+                            </figure>
+                        </div>
+                        <div class="card-test">
+                            <figure>
+                                <img src="img/Photo1.png">
+                                <div class="card-test__title">Apple TV 32 Gb</div>
+                                <div class="card-test__color">black</div>
+                                <div class="card-test__price">$49</div>
+                            </figure>
+                        </div>
+                        <div class="card-test banner">
+                            <figure>
+                                <img src="img/bigBanner.png" width="100%" height="300px">
+                            </figure>
+                            <div class="card-test__wrapper d-flex justify-content-between">
+                                <div>
+                                    <div class="card-test__title">Apple TV 32 Gb</div>
+                                    <div class="card-test__color">black</div>
+                                </div>
+                                <div>
+                                    <input type="submit" value="BUY NOW">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-test">
+                            <figure>
+                                <img src="img/Photo1.png">
+                                <div class="card-test__title">Apple TV 32 Gb</div>
+                                <div class="card-test__color">black</div>
+                                <div class="card-test__price">$49</div>
+                            </figure>
+                        </div>
+                        <div class="card-test">
+                            <figure>
+                                <img src="img/Photo1.png">
+                                <div class="card-test__title">Apple TV 32 Gb</div>
+                                <div class="card-test__color">black</div>
+                                <div class="card-test__price">$49</div>
+                            </figure>
+                        </div>
+                        <div class="card-test">
+                            <figure>
+                                <img src="img/Photo1.png">
+                                <div class="card-test__title">Apple TV 32 Gb</div>
+                                <div class="card-test__color">black</div>
+                                <div class="card-test__price">$49</div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-11 d-flex justify-content-between paginator">
+                    <div class="paginator__start">
+                        <button type="button-prev"><span>
+                                <</span> </button> </div> <div class="paginator__wrapper">
+                                    <ul class="list-pagination">
+                                        <li class="list-item ">
+                                            <a class="page-link" href="#">1</a>
+                                        </li>
+                                        <li class="list-item">
+                                            <a class="page-link" href="#">2</a>
+                                        </li>
+                                        <li class="list-item">
+                                            <a class="page-link" href="#">3</a>
+                                        </li>
+                                        <li class="list-item ">
+                                            <a class="page-link active" href="#">4</a>
+                                        </li>
+                                        <li class="list-item">
+                                            <a class="page-link" href="#">5</a>
+                                        </li>
+                                        <li class="list-item">
+                                            <a class="page-link" href="#">6</a>
+                                        </li>
+                                        <li class="list-item">
+                                            <a class="page-link" href="#">7</a>
+                                        </li>
+                                        <li class="list-item">
+                                            <a class="page-link" href="#">8</a>
+                                        </li>
+                                    </ul>
+                    </div>
+                    <div class="paginator__finish">
+                        <button type="button-last"><span> > </span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="best__sellers text-center">
+                        <p class="text-uppercase">best sellers</p>
+                    </div>
+                </div>
+                <div class="col-xl best">
+                    <div class="best__wrapper d-flex justify-content-between">
+                        <div class="card-test">
+                            <figure>
+                                <img src="img/Photo2.png">
+                                <div class="card-test__title">Apple TV 32 Gb</div>
+                                <div class="card-test__color">black</div>
+                                <div class="card-test__price">$49</div>
+                            </figure>
+                        </div>
+                        <div class="card-test">
+                            <figure>
+                                <img src="img/Photo2.png">
+                                <div class="card-test__title">Apple TV 32 Gb</div>
+                                <div class="card-test__color">black</div>
+                                <div class="card-test__price">$49</div>
+                            </figure>
+                        </div>
+                        <div class="card-test">
+                            <figure>
+                                <img src="img/Photo2.png">
+                                <div class="card-test__title">Apple TV 32 Gb</div>
+                                <div class="card-test__color">black</div>
+                                <div class="card-test__price">$49</div>
+                            </figure>
+                        </div>
+                        <div class="card-test">
+                            <figure>
+                                <img src="img/Photo2.png">
+                                <div class="card-test__title">Apple TV 32 Gb</div>
+                                <div class="card-test__color">black</div>
+                                <div class="card-test__price">$49</div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center reviews">
+            <div class="col-12 ">
+                <h1 class="text-capitalize font-weight-bold">what our customers have to say</h1>
+                <h4 class="text-capitalize">what our customers have to say</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl d-flex justify-content-between">
+                <div class="customer">
+                    <figure>
+                        <img src="img/images.jpg" width="50" height="50">
+                        <h3>Celia Fields</h3>
+                        <h4>Manager</h4>
+                    </figure>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur doloremque in itaque iusto
+                        necessitatibus nesciunt praesentium, quibusdam tempora tempore vero. Blanditiis dolore dolores
+                        dolorum enim modi nam nesciunt reiciendis voluptatum.
+                    </p>
+                </div>
+                <div class="customer">
+                    <figure>
+                        <img src="img/images.jpg" width="50" height="50">
+                        <h3>Celia Fields</h3>
+                        <h4>Manager</h4>
+                    </figure>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur doloremque in itaque iusto
+                        necessitatibus nesciunt praesentium, quibusdam tempora tempore vero. Blanditiis dolore dolores
+                        dolorum enim modi nam nesciunt reiciendis voluptatum.
+                    </p>
+                </div>
+                <div class="customer">
+                    <figure>
+                        <img src="img/images.jpg" width="50" height="50">
+                        <h3>Celia Fields</h3>
+                        <h4>Manager</h4>
+                    </figure>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur doloremque in itaque iusto
+                        necessitatibus nesciunt praesentium, quibusdam tempora tempore vero. Blanditiis dolore dolores
+                        dolorum enim modi nam nesciunt reiciendis voluptatum.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row footer justify-content-between">
+            <div class="col-xl-12 footer__top d-flex justify-content-between">
+                <figure>
+                    <img src="img/Portland.png">
+                </figure>
+                <div class="footer__list">
+                    <ul class="d-flex">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">shop</a>
+                        </li>
+                        <li>
+                            <a href="#">team</a>
+                        </li>
+                        <li>
+                            <a href="#">about</a>
+                        </li>
+                        <li>
+                            <a href="#">contacts</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__social d-flex">
+                    <a href="#" class="social__ins">
+                        <img src="img/Twitter_Icon.png">
+                    </a>
+                    <a href="#" class="social__fb">
+                        <img src="img/Facebook_Icon.png">
+                    </a>
+                    <a href="#" class="social__google">
+                        <img src="img/G+_Icon.png">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-6 footer-bottom d-flex justify-content-between">
+                <div class="bottom_left">
+                    <p>Lorem ipsum dolor sit amet, adipisicing elit. A at ducimus illo ipsum libero maiores,
+                        neque optio quos repellat vero! Asperiores dolores eos eveniet ex, fugiat harum ipsa quidem
+                        voluptates.
+                    </p>
+                </div>
+            </div>
+            <div class="col-4 align-self-center">
+                <div class="bottom-right">
+                    <p class="text-uppercase">privance polici terme and confidence</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
